@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.artcttor{
+	margin: 0.7rem 0.18rem 0rem 0.18rem;
+}
+.artcttor-ul{
+	overflow: hidden;
+	margin: 0.2rem 0 0 0;
+	padding-top: 0.06rem;
+}
+.artcttor-ul>li{
+	float: left;
+	width: 50%;
+	padding: 0.03rem;
+	box-sizing: border-box;
+	font-size: 0.15rem;
+	list-style: none;
+}
+.artcttor-ul>li>a{
+	background-color: #f6f6f6;
+	color: #494949;
+	display: block;
+	text-align: center;
+	line-height: 0.2rem;
+	padding: 0.12rem 0;
+	border-radius: 0.02rem;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-decoration:none;
+}
+.feed-item{
+	display: block;
+	padding: 0.25rem 0.0rem 0.25rem 0;
+	margin-left: 0.18rem;
+	position: relative;
+	color: #494949;
+}
+.feed-content{
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.photos{
+	width: 3.39rem;
+	height: 1.64rem;
+	display: flex;
+	margin-bottom: 0.1rem;
+}
+.main{
+	width: 2.45rem;
+	height: 1.63rem;
+	position: relative;
+    background: url(../img/p59100019.jpg)no-repeat;
+	background-size:100%;
+	float: left;
+}
+.main-lili{
+	float: right;
+}
+.main-you{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: url(../img/p59711049.jpg);
+	background-size:100%;
+	margin:0.01rem 0.05rem;
+}
+.main-you-1{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: url(../img/p59711039.jpg);
+	background-size:100%;
+}
+.ziti-h3{
+	text-align: justify;
+	font-size: 0.17rem;
+	font-weight: 500;
+	line-height: 1.41;
+	color: #494949;
+	margin-bottom: 0.06rem;
+}
+.ziti-p{
+	text-align: justify;
+	color: #aaa;
+	font-size: 0.12rem;
+	line-height: 1.5;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+.athor{
+	font-size: 0.12rem;
+	color: #ccc;
+}
+.name{
+	font-size: 0.12rem;
+	color: #ccc;
+}
